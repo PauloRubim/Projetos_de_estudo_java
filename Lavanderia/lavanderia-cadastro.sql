@@ -1,0 +1,19 @@
+CREATE TABLE administradorCliente (
+id BIGINT(10) AUTO_INCREMENT,
+nome VARCHAR(60),
+cpf VARCHAR(11),
+endereco VARCHAR(60),
+idade INTEGER(2) UNSIGNED DEFAULT NULL,
+contato VARCHAR(12),
+senha VARCHAR(8),
+saldo DOUBLE,
+cardNumber VARCHAR(10),
+PRIMARY KEY (id)
+);
+CREATE TABLE Administrador (
+id BIGINT(10) AUTO_INCREMENT,
+nome VARCHAR(60),
+cpf VARCHAR(11),
+senha VARCHAR(8),
+PRIMARY KEY (id)
+);
